@@ -67,9 +67,14 @@ public class TestMember {
 		mList[1]          = new Member("정연", "jungy", "jungy@hive.com", 2011);
 		mList[2]          = new Member("미나", "mina",  "mina@hive.com",  2015);
 
-		mList[0].info();
-		mList[1].info();
-		mList[2].info();
+		//mList[0].info();
+		//mList[1].info();
+		//mList[2].info();
+		
+		for (int i = 0; i < mList.length; i++) {
+			Member member = mList[i];
+			member.info();
+		}
 
 	}
 
