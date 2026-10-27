@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 /* RESCENE
 원이  리브 미나미 메이 제나
-2004  2006 2006   18   17 
+2004  2006 2006   2008 2009 
 리더  보컬 보컬   랩   보컬
 */
 
@@ -53,13 +53,13 @@ public class MemberTest {
 		
 		// 객체배열로 저장해서 처리
 		// 1. 먼저 저장할 배열을 인원수에 맞게 준비
-		GirlMember [] rescArr =  new GirlMember[5];    
+		GirlMember [] rescArr =  new GirlMember[5]; // 배열 생성   
 		
-		rescArr[0]  =   new GirlMember("원이", 2004, "리더");   // == resc1
-		rescArr[1]  =   new GirlMember("리브", 2006, "보컬");   // == resc2
+		rescArr[0]  =   new GirlMember("원이",   2004, "리더");   // == resc1
+		rescArr[1]  =   new GirlMember("리브",   2006, "보컬");   // == resc2
 		rescArr[2]  =   new GirlMember("미나미", 2006, "보컬");
-		rescArr[3]  =   new GirlMember("메이", 2008, "랩");
-		rescArr[4]  =   new GirlMember("제나", 2009, "보컬");
+		rescArr[3]  =   new GirlMember("메이",   2008, "랩");
+		rescArr[4]  =   new GirlMember("제나",   2009, "보컬");
 		
 		for (int i = 0; i < rescArr.length; i++) {
 			rescArr[i].info();
