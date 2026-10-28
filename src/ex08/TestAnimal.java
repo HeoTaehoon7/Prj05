@@ -59,6 +59,7 @@ public class TestAnimal {
 	private static void work(Animal animal, String name, String food) {
 		animal.name = name;
 		animal.eat(food);
+		
 		animal.sound();
 	}
 
